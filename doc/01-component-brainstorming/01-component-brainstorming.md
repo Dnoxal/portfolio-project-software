@@ -1,12 +1,10 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Daniel Li
+- **Dot Number**: li.15668
+- **Due Date**: 02/06
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -29,8 +27,6 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -52,8 +48,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -67,12 +61,10 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
-the rubric is designed to assess the learning objectives *directly* in a way
+the rubric is designed to assess the learning objectives _directly_ in a way
 that is low stakes—meaning you shouldn't have to worry about the grade. Just
 do good work.
 
@@ -106,23 +98,21 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+Hi my name is Daniel Li! I really fell in love with programming when I was a child - my mom gave me one hour a day to play
+video games, but I was met with a very boring task in a grindy-game. Obviously, I didn't want to spend 20 days in a row
+holding down left click, so I thought of ways to possibly make my life easier: and that's where I found coding. I took 30 minutes to learn Python for scripting, and it ended up working! My mind was turning, since if my 8th grade self could make something that made my life easier what could a plethora of people with more experience and backgrounds do for the world?
+
+To be honest, I'm not really sure what I want to do in terms of my career. Computer science is one of those disciplines where there isn't one "set" path. For example, you could be a professor, software engineer, CEO, trader, and so much more (this is one of the reasons why I love the field). I've been trying to test the waters by getting research positions/internships in some of these niches so I can really see if I like it or not.
+
+Outside of school, I really enjoy playing table tennis (commonly known as ping pong). I play on the Ohio State team against other universities and find it very fun, and I love the challenge of playing with people better than me. I've also recently picked up going to the gym to stay healthy. Lastly, I like skiing since it's kind of how I got over my fear of heights, which I thought was something that had cursed my entire family. Over time, I found I got less afraid of looking down large mountains.
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -142,8 +132,6 @@ list-like components that have different ways of manipulating the data. Think
 about different ways you might allow a client to manipulate your component.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -168,7 +156,7 @@ format, we can be more confident that your designs will be possible.
     - `NaturalNumber divide(NaturalNumber n)`: divides `this` by `n`, returning
       the remainder
     - ...
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
       - Yes, basically all OSU components have to be mutable as long as they
@@ -180,7 +168,7 @@ format, we can be more confident that your designs will be possible.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
       - Yes. NaturalNumber is base 10, and we track that in a constant called
-          `RADIX`.
+        `RADIX`.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
       - Yes. The kernel methods `multiplyBy10` and `divideBy10` can be used to
@@ -211,68 +199,96 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Statistics Tracker
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Tracks basic statistics (count, sum, mean, min, max, variance estimate) for a lot of double values. Supports adding values over time and resetting.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - void clear()
+    - void add(double x)
+    - int size()
+    - double sum()
+    - double sumSquares()
+    - double min()
+    - double max()
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+    - double mean()
+    - double variance()
+    - double stdDev()
+    - boolean isEmpty()
+    - double range()
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, since calling add and clear changes the internal running totals and extrema, so the object’s state changes over time.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No. It can be implemented with primitive fields (int n, double sum, double sumSq, double min, double max).
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
-  - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
-  - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
-  - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
-    answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. For example, mean() can be computed as sum() / size() (with an empty check). range() can be computed as max() - min().
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Linear Regression
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Performs simple linear regression without storing all points by tracking sums.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - void clear()
+    - void addPoint(double x, double y)
+    - int size()
+    - double sumX()
+    - double sumY()
+    - double sumXX()
+    - double sumXY()
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+    - double slope() (a)
+    - double intercept() (b)
+    - double predict(double x)
+    - double rSquared()
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No, since sums can be kept track of through doubles.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. predict(x) can be implemented using slope() and intercept() and slope() from formulas.
+
+- Component Design #3: Moving Averages
+  - **Description**:
+    - Maintains a moving average of values using alpha. Useful for investors to analyze stocks and ETFs.
+  - **Kernel Methods**:
+    - void clear()
+    - void setAlpha(double alpha)
+    - double alpha()
+    - void update(double x) (ingest next value)
+    - boolean hasValue() (whether EMA is initialized)
+    - double value() (current EMA; requires hasValue())
+  - **Secondary Methods**:
+    - double updateAndGet(double x)
+    - void warmStart(double initialValue)
+    - double oneStepForecast()
+    - boolean isStable(double tolerance)
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
+    answer for each of the following questions):
+    - Would this component be mutable? Answer and explain:
+      - Yes; update, setAlpha, and clear modify the state and configuration.
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
+      Answer and explain:
+      - Maybe for a default Alpha value.
+    - Would this component need any enums or constants (e.g.,
+      `Program.Instruction`)? Answer and explain:
+      - I don't know.
+    - Can you implement your secondary methods using your kernel methods?
+      Answer, explain, and give at least one example:
+      - Yes. updateAndGet(x) can be implemented by calling update(x) then returning value().
 
 ## Post-Assignment
 
@@ -280,8 +296,6 @@ The following sections detail everything that you should do once you've
 completed the assignment.
 
 ### Changelog
-
-<!-- TODO: create CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -320,8 +334,6 @@ of development.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
-
 If you have completed the assignment using this template, we recommend that
 you convert it to a PDF before submission. If you're not sure how, check out
 this [Markdown to PDF guide][markdown-to-pdf-guide]. However, PDFs should be
@@ -330,11 +342,7 @@ all your work is there before submitting. For future assignments, you will
 just be submitting a link to a pull request. This will be the only time
 you have to submit any PDFs.
 
-<!-- TODO: upload a PDF of this document and the CHANGELOG to Carmen then delete this comment -->
-
 ### Peer Review
-
-<!-- TODO: review the peer review guidelines then delete this comment -->
 
 Following the completion of this assignment, you will be assigned three
 students' component brainstorming assignments for review. Your job during the
@@ -360,8 +368,6 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [example-components]: https://therenegadecoder.com/code/the-never-ending-list-of-small-programming-project-ideas/
 [markdown-to-pdf-guide]: https://therenegadecoder.com/blog/how-to-convert-markdown-to-a-pdf-3-quick-solutions/
