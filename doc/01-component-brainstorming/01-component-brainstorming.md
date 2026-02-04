@@ -104,7 +104,7 @@ holding down left click, so I thought of ways to possibly make my life easier: a
 
 To be honest, I'm not really sure what I want to do in terms of my career. Computer science is one of those disciplines where there isn't one "set" path. For example, you could be a professor, software engineer, CEO, trader, and so much more (this is one of the reasons why I love the field). I've been trying to test the waters by getting research positions/internships in some of these niches so I can really see if I like it or not.
 
-Outside of school, I really enjoy playing table tennis (commonly known as ping pong). I play on the Ohio State team against other universities and find it very fun, and I love the challenge of playing with people better than me. I've also recently picked up going to the gym to stay healthy. Lastly, I like skiing since it's kind of how I got over my fear of heights, which I thought was something that had cursed my entire family. Over time, I found I got less afraid of looking down large mountains.
+Outside of school, I really enjoy playing table tennis (commonly known as ping pong). I play on the Ohio State team against other universities and find it very fun, and I love the challenge of playing with people better than me. I've also recently picked up going to the gym to stay healthy. I also like investing in stocks and finding out more information about potential companies to have a stronger reason to bet my money on them. Lastly, I like skiing since it's kind of how I got over my fear of heights, which I thought was something that had cursed my entire family. Over time, I found I got less afraid of looking down large mountains.
 
 ## Assignment
 
