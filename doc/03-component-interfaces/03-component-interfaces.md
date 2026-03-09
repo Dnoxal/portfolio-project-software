@@ -130,7 +130,7 @@ hierarchy diagram using whatever tools you would like. Then, include a picture
 of it in this folder. You may also embed it just below using markdown syntax
 (i.e., `![ALT TEXT](path/to/file)`).
 
-        Standard<LinearRegression>
+              Standard
                   ^
                   | extends
                   |
@@ -163,8 +163,6 @@ merges, you will need to pull the changes from main into your current branch
 to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
