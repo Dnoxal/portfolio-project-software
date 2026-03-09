@@ -130,7 +130,7 @@ hierarchy diagram using whatever tools you would like. Then, include a picture
 of it in this folder. You may also embed it just below using markdown syntax
 (i.e., `![ALT TEXT](path/to/file)`).
 
-        Standard<LinearRegression>
+              Standard
                   ^
                   | extends
                   |
