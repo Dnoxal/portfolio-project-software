@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [2026.03.31]
+
+### Added
+
+- Designed abstract class for LinearRegression component
+
+### Updated
+
+- Changed design to include summary statistic methods in the kernel to support secondary method implementation
+
 ## [2026-03-09]
 
 ### Added
