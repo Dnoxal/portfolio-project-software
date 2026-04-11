@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [2026.04.11]
+
+### Added
+
+- Implemented kernel class `LinearRegression1L`
+- Added convention and correspondence for the kernel representation
+
+### Updated
+
+- Finalized the representation using running regression totals instead of
+  storing all original data points
+
 ## [2026.03.31]
 
 ### Added
