@@ -1,3 +1,5 @@
+package components.linearregression;
+
 /**
  * LinearRegression represented by the number of data points and the running
  * sums needed for least-squares regression.
@@ -73,18 +75,11 @@ public final class LinearRegression1L extends LinearRegressionSecondary {
         this.createNewRep();
     }
 
-    /*
-     * NOTE: I used the source parameter because transferFrom is required by the
-     * Standard interface. I wasn’t fully sure at first how to implement it, but
-     * after an online search, I think that the point is to move the internal
-     * representation from source into this object and then resetting it
-     * aftewrards.
-     */
-
     @Override
     public void transferFrom(LinearRegression source) {
         assert source != null : "Violation of: source is not null";
         assert source != this : "Violation of: source is not this";
+        assert source instanceof LinearRegression1L : "Violation of: source is of dynamic type LinearRegression1L";
 
         LinearRegression1L localSource = (LinearRegression1L) source;
 

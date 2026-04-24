@@ -1,3 +1,5 @@
+package components.linearregression;
+
 import components.standard.Standard;
 
 /**

@@ -1,3 +1,5 @@
+package components.linearregression;
+
 /**
  * Enhanced interface for a LinearRegression component.
  */

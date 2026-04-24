@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Daniel Li
+- **Dot Number**: li.15668
+- **Due Date**: 04/24/2026
 
 ## Assignment Overview
 
@@ -49,8 +49,6 @@ Many of these additional techniques are somewhat out of the scope of this
 course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -140,8 +138,6 @@ merges, you will need to pull the changes from main into your current branch
 to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +303,21 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I think I understand software development much better after completing this project. Before, most of my experience was solving problems through leetcode or writing smaller programs, but this project forced me to think about how everything fits together in a full system, especially with kernel, etc. I had to structure code across multiple classes, follow clear interfaces, and ensure that different components interacted correctly, which felt much closer to real-world development
+I might actually be working in for a job.
+
+One of the biggest takeaways I had was how important organization are (I personally think I am NOT an organized person). Writing the code itself often wasn't the hardest part; deciding how to structure the program took much more thought and had a bigger impact on whether the program worked cleanly.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+One gap that surfaced was my lack of experience working with larger codebases / programs. When the project grew, it became harder to track where issues were coming from. I think it really showed me I wasn’t as strong with debugging across multiple files as I thought. The way I addressed this was through more systematic testing and checking assumptions I had made at each step instead of guessing and fixing everything later.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+Honestly, I feel like my perspective on software development has become more grounded after this project. I used to think of it mainly as writing code that produces the correct output, but now I see it as building and maintaining a structured body over time. A lot more attention goes into design, organization, and making code understandable for future use. I still enjoy software development, and the project actually made it more engaging because it felt closer to work I'd do in the industry. Seeing everything come together into a functioning program was definitely super satisfying, and working through challenges made the process feel meaningful.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +325,31 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+On the technical side, I improved at organizing code across multiple classes, implementing interfaces correctly, and debugging issues that are across different parts of a program. I also got better at carefully reading specifications and translating them into working code. Beyond that, I developed stronger problem-solving skills and persistence when dealing with issues that dont necessarly have obvious solutions. I also improved my time management by working through a larger project over a longer period instead of completing short assignments.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+1. Applied object-oriented design to organize code for readability and maintainability
+2. Debugged and tested functionality across multiple components in a large codebase
+3. Interpreted and implemented detailed technical specifications accurately
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+Working on this project has made me more confident about pursuing software engineering, especially going into this summer where I’ll be working in a professional environment. It gave me a better sense of what it’s like to work with larger codebases, and the experience feels directly relevant to what I’ll be doing in the industry. It also made me more interested in this kind of work because I enjoyed seeing how individual pieces come together into something functional. As I said earlier, it felt really satisfying / rewarding when everything came together !!!
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To continue on my current career trajectory, I plan to keep building larger, more advanced projects that reflect what I would do in the industry. I also want to deepen my understanding of software engineering practices like testing, scalability, etc. Staying consistent with coding, refining past projects, and exploring more advanced topics will help me keep improving.
+
+In terms of mentors, I can reach out to my current mentor who is a senior software engineer at Coinbase, since he have direct industry experience and also went to ohio state. I can also connect with my professors, who have been valuable academic mentors and can help me strengthen my fundamentals. Additionally, my brother has been a strong personal mentor, offering advice and perspective for startups!
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -382,8 +383,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -434,7 +433,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
