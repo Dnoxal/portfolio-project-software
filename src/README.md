@@ -1,33 +1,32 @@
-# SRC Folder
+# Source Files
 
-This README exists, so the folder shows up in source control like git. This
-file is not needed and can be safely deleted. 
+This folder contains the source code for the Linear Regression component and its example use cases.
 
-However, for completeness, this folder exists for the purpose of storing your
-source code. As a reminder, by discipline, this folder must contain at least
-four Java files:
+## Component Files
 
-1. The Kernel Interface (e.g., `NaturalNumberKernel`)
-2. The Enhance Interface (e.g., `NaturalNumber`)
-3. The Secondary Abstract Class (e.g., `NaturalNumberSecondary`)
-4. A Kernel Implementation (e.g., `NaturalNumber1L`)
+The main component is stored in `components/linearregression/`.
 
-Ideally, you will want to package your component appropriately as well.
-That means not just dumping your source code in the `src` folder but actually
-creating nested folders for grouping similar components. For example, the
-`NaturalNumber` API can be found in the `src/components/naturalnumber` package.
-In other words, you would need to nest a `components` folder in the `src` 
-folder. Then, nest the `naturalnumber` folder in the `components` folder.
-The result would be the following directory structure:
+- `LinearRegressionKernel.java` defines the kernel methods for storing data points and reporting running totals.
+- `LinearRegression.java` extends the kernel interface with secondary regression methods.
+- `LinearRegressionSecondary.java` implements the secondary methods using the kernel methods.
+- `LinearRegression1L.java` provides the concrete representation using running sums.
 
-```
-src
-└───components
-    └───naturalnumber
-            NaturalNumber.java
-            NaturalNumber1L.java
-            NaturalNumberKernel.java
-            NaturalNumberSecondary.java
-```
+## Example Use Cases
 
-If done correctly, your portfolio can be bundled as its own `.jar`.
+This folder also includes two sample applications that demonstrate how the component can be used.
+
+### LinearRegressionDemo.java
+
+This file shows direct use of the component. It creates a regression model, adds several points, and prints the stored totals and computed regression values.
+
+### StudyHoursPredictor.java
+
+This file shows a more specific application of the component. It uses linear regression to model the relationship between study hours and exam scores, then predicts a score for a new number of study hours.
+
+## Design Notes
+
+The implementation follows the OSU CSE component pattern:
+
+- Kernel methods store and expose the minimal state needed for the model.
+- Secondary methods are implemented once in the abstract class.
+- The concrete class maintains the representation and implements Standard methods.
